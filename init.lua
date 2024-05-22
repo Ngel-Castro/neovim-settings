@@ -33,7 +33,11 @@ dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
 
 require "nvchad.autocmds"
+<<<<<<< Updated upstream
 require("toggleterm").setup{}
+=======
+require "custom.toggleterm-config"
+>>>>>>> Stashed changes
 
 vim.schedule(function()
   require "mappings"
