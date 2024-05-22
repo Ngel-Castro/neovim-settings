@@ -68,6 +68,11 @@ return {
     -- or
     --{'akinsho/toggleterm.nvim', version = "*", opts = {--[[ things you want to change go here]]}} 
   },
+    -- Which-key
+  {
+    'folke/which-key.nvim',
+     lazy = true,
+  },
   {
     "olexsmir/gopher.nvim",
     ft = "go",
